@@ -1,0 +1,23 @@
+{
+  "name": "querysibling",
+  "version": "1.0.0",
+  "description": "JavaScript's missing querySibling function.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanpcmcquen/querysibling.git"
+  },
+  "keywords": [
+    "query",
+    "sibling"
+  ],
+  "author": "Ryan P.C. McQuen",
+  "license": "GPL-2.0+",
+  "bugs": {
+    "url": "https://github.com/ryanpcmcquen/querysibling/issues"
+  },
+  "homepage": "https://github.com/ryanpcmcquen/querysibling#readme"
+}
