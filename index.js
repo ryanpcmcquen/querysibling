@@ -1,4 +1,4 @@
-/*! querySibling 1.1.0 by ryanpcmcquen */
+/*! querySibling 1.1.1 by ryanpcmcquen */
 /*global modules*/
 /*jshint esversion:6*/
 const qu = 'querySelector';
@@ -6,7 +6,7 @@ const querySibling = {
   _qs: (e, s, t) => {
     (t === 'p') ? (t = 'previous') : (t = 'next');
     (typeof e === 'string') && (e = document[qu](e));
-    const sa = (e.parentNode[qu + 'All'](s));
+    const sa = (e.parentNode[`${qu}All`](s));
     const ps = (s) => s[t + 'ElementSibling'];
     return [...sa].filter((i) => (ps(e) === i) ? i : ps(ps(i))).pop();
   },
