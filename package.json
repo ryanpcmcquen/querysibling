@@ -1,6 +1,6 @@
 {
   "name": "querysibling",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "JavaScript's missing querySibling function.",
   "main": "index.js",
   "scripts": {
