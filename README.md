@@ -20,3 +20,13 @@ querySibling.next('.foo', '.zot');
 // => Returns `.zot` node.
 
 ```
+
+---
+
+It is available via `npm` for new-school kids (es6):
+
+https://www.npmjs.com/package/querysibling
+
+Or [RawGit](http://rawgit.com/) for old-school kids (es5):
+
+https://cdn.rawgit.com/ryanpcmcquen/querysibling/923c4e5f10610b505f22b7af7ba1a54d94df8f0f/index-es5.js
