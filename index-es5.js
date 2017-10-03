@@ -1,4 +1,4 @@
-/*! querySibling.js v1.1.2--ES5 by ryanpcmcquen */
+/*! querySibling.js v1.1.3--ES5 by ryanpcmcquen */
 /*jshint expr:true*/
 (function () {
   'use strict';

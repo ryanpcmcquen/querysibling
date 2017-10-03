@@ -1,4 +1,4 @@
-/*! querySibling 1.1.2 by ryanpcmcquen */
+/*! querySibling 1.1.3 by ryanpcmcquen */
 /*global modules*/
 /*jshint esversion:6*/
 const qu = 'querySelector';
